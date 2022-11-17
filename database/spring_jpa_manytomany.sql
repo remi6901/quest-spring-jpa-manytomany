@@ -64,7 +64,7 @@ CREATE TABLE `wizard` (
 -- Dumping data for table `wizard`
 --
 
-LOCK TABLES `wizard` WRITE;
+/*LOCK TABLES `wizard` WRITE;*/
 /*!40000 ALTER TABLE `wizard` DISABLE KEYS */;
 INSERT INTO `wizard` VALUES (1,'','london','1980-07-31','harry','potter',_binary '\0'),(2,'Friend of Harry Potter','','1979-09-19','hermione','granger',_binary '\0'),(3,'mother of Harry Potter','','1960-01-30','lily','potter',_binary '\0'),(4,'Best friend of Harry','','1980-03-01','ron','weasley',_binary '\0'),(5,'Sister of Ron and girlfriend of Harry','','1981-08-11','ginny','weasley',_binary '\0'),(6,'','','1978-04-01','fred','weasley',_binary '\0'),(7,'','','1978-04-01','george','weasley',_binary '\0'),(8,'','','1950-02-06','arthur','weasley',_binary '\0'),(9,'','','1949-01-01','molly','weasley',_binary '\0'),(10,'','','1980-06-05','drago','malefoy',_binary '\0'),(11,'','','1881-07-01','albus','dumbledore',_binary '\0'),(12,'','','1960-01-09','severus','rogue',_binary '\0'),(13,'Celui-Dont-On-Ne-Doit-Pas-Prononcer-Le-Nom alias Voldermort','','1926-12-31','tom','jedusor',_binary '\0'),(14,'Cousin d\'Harry','','1980-06-23','dudley','dursley',_binary '');
 /*!40000 ALTER TABLE `wizard` ENABLE KEYS */;
